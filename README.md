@@ -36,7 +36,10 @@ php artisan migrate:fresh --seed
 
 Rodando o projeto:
 ```
-php artisan serve && npm run dev
+php artisan serve
+```
+```
+npm run dev
 ```
 
 Usuários e administradores pré-criados:

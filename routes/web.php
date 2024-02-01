@@ -1,11 +1,14 @@
 <?php
 
+use App\Http\Controllers\BrandController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return redirect()->route('dashboard');
 });
+
+Route::resource('brands', BrandController::class)->only('index')->middleware('auth');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

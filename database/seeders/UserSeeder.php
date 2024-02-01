@@ -13,6 +13,7 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
+        /* Administrador */
         User::create([
             'name' => 'Administrador',
             'email' => 'admin@minertecnologia.com',
@@ -20,6 +21,7 @@ class UserSeeder extends Seeder
             'is_admin' => true,
         ]);
 
+        /* Usuários padrões */
         User::create([
             'name' => 'Usuário padrão 1',
             'email' => 'user1@minertecnologia.com',

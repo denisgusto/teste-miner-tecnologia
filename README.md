@@ -58,4 +58,4 @@ user2@minertecnologia.com
 ### Observações de utilização
 Para modificar as permissões dos usuários clique em cima de cada permissão:
 
-<img src="https://i.ibb.co/drFRdJk/projeto-miner-tecnologia.png">
+<img src="https://i.ibb.co/3WkFW2K/projeto-miner-tecnologia.png">

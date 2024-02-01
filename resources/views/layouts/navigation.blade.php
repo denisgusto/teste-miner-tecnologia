@@ -34,6 +34,12 @@
                         </x-nav-link>
                     @endcan
 
+                    @can('list-users')
+                        <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
+                            {{ __('Usuários') }}
+                        </x-nav-link>
+                    @endcan
+
                     @can('list-permissions')
                         <x-nav-link :href="route('permissions.index')" :active="request()->routeIs('permissions.index')">
                             {{ __('Permissões') }}

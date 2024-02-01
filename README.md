@@ -16,14 +16,14 @@ DB_PASSWORD=
 ```
 
 ### Execução
-Criar o APP_KEY:
-```
-php artisan key:generate
-```
-
 Rodar as dependências:
 ```
 composer install && npm install
+```
+
+Criar o APP_KEY:
+```
+php artisan key:generate
 ```
 
 Subir as migrations:

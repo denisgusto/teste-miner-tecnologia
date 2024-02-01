@@ -39,6 +39,7 @@ Rodando o projeto:
 php artisan serve
 ```
 ```
+# Pode executar o 'npm run build' também.
 npm run dev
 ```
 

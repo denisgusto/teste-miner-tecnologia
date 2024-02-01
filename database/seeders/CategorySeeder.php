@@ -20,7 +20,7 @@ class CategorySeeder extends Seeder
 
         Category::create([
             'name' => 'Categoria 2',
-            'status' => true,
+            'status' => false,
         ]);
 
         Category::create([

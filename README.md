@@ -3,6 +3,8 @@
 ## Instalação
 
 ### Configuração .env
+Criado com PHP 8.1 e Laravel 10
+
 ```
 cp .env.example .env
 ```
